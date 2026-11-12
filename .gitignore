@@ -1,0 +1,31 @@
+# Ignore large audio files, zips, and model weights (>100MB GitHub limit)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Audio data
+dataset/
+audio/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.frq
+*.mrk
+
+# Model checkpoints & training logs
+weights/*.pth
+weights/*.index
+logs/
+*.pth
+*.pt
+*.onnx
+
+# Python cache & envs
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+venv/
+env/
