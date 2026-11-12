@@ -41,8 +41,9 @@ Most existing Kasane Teto RVC models on the internet suffer from:
 
 | File | Size | Description |
 | :--- | :--- | :--- |
-| `KasaneTeto.pth` | 53 MB | HiFi-GAN 40kHz Generator model weights |
+| `KasaneTeto.pth` | 53 MB | HiFi-GAN 40kHz Generator PyTorch model weights |
 | `KasaneTeto.index` | 129 MB | FAISS feature retrieval index |
+| `KasaneTeto.onnx` | 106 MB | Standalone ONNX runtime model (Zero-PyTorch CPU/Edge) |
 | `KasaneTeto_RVC_v2.zip` | 168 MB | One-click bundle for Applio / RVC WebUI |
 | `output_teto_kimi.wav` | 197 KB | Audio sample (*"Kimi wa jitsu ni baka da na"*) |
 

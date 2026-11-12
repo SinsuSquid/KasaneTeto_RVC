@@ -55,6 +55,9 @@ python core.py train --model-name KasaneTeto --sample-rate 40000 --total-epoch 2
 
 # 4. Generate FAISS Feature Index
 python core.py index --model-name KasaneTeto --index-algorithm Auto
+
+# 5. Export Standalone ONNX Model (Zero-PyTorch Runtime)
+python core.py model-onnx-export --pth-path ../weights/KasaneTeto.pth --output-path ../weights/KasaneTeto.onnx
 ```
 
 ---
@@ -65,9 +68,11 @@ python core.py index --model-name KasaneTeto --index-algorithm Auto
 - **Dataset**: 400 uncompressed studio phonemes sliced into 537 clean audio segments (~13m38s)
 - **Speed**: ~10 seconds per epoch (total training runtime: ~35 minutes)
 - **Convergence**: 200 epochs, 3,600 gradient updates, lowest generator loss **36.014**
-- **Output Weights**:
-  - `KasaneTeto.pth` (53 MB) — HiFi-GAN 40kHz generator
-  - `KasaneTeto.index` (129 MB) — FAISS retrieval index
+- **Output Artifacts**:
+  - `KasaneTeto.pth` (53 MB) — HiFi-GAN 40kHz PyTorch generator weights
+  - `KasaneTeto.index` (129 MB) — FAISS micro-timbre retrieval index
+  - `KasaneTeto.onnx` (106 MB) — Standalone ONNX model for real-time CPU/Edge inference
+  - `KasaneTeto_RVC_v2.zip` (168 MB) — Pre-packaged 1-click installation bundle
 
 ---
 
