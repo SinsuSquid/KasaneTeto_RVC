@@ -16,6 +16,8 @@ tags:
 
 # Kasane Teto (重音テト) — Studio Master RVC v2 Model (40kHz) 🥖
 
+> 🐙 **Code & Training Pipeline**: Full dataset preparation and training scripts are available on GitHub at [**SinsuSquid/KasaneTeto_RVC**](https://github.com/SinsuSquid/KasaneTeto_RVC).
+
 An artisan, booth-clean **Retrieval-based Voice Conversion (RVC v2)** model for **Kasane Teto (重音テト)**, trained on an enterprise **NVIDIA A100-SXM4-40GB GPU** using the official 2024 uncompressed anechoic studio UTAU voicebank from [kasaneteto.jp](https://kasaneteto.jp/).
 
 ---

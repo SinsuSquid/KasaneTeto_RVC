@@ -1,5 +1,7 @@
 # Kasane Teto (重音テト) RVC v2 Voice Model Pipeline 🥖
 
+> 🌐 **Model Weights & Audio Demo**: Download the pre-trained weights, FAISS index, and listen to audio samples on Hugging Face at [**SinsuSquid/Kasane-Teto-UTAU-RVC-v2**](https://huggingface.co/SinsuSquid/Kasane-Teto-UTAU-RVC-v2).
+
 A streamlined pipeline to train a state-of-the-art **Retrieval-based Voice Conversion (RVC v2)** neural voice model for **Kasane Teto (重音テト)** using official studio-recorded UTAU voicebanks on high-performance NVIDIA GPUs.
 
 ---
